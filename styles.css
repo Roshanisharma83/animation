@@ -16,7 +16,9 @@ body{
 .container-inner{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(24deg, #f3c57f 0%, #c9437a 46%, #6b42b4 100%);
+    /* background: linear-gradient(to bottom right, #f4cb82 0%, #bf3d7d 46%, #6b42b4 100%); */
+    background: rgb(244,204,128);
+background: linear-gradient(156deg, rgba(244,204,128,1) 1%, rgba(204,44,131,1) 56%, rgba(107,65,175,1) 100%);
     overflow: scroll;
     text-align: center;
     display: grid;
@@ -28,10 +30,10 @@ body{
     border: 1px solid #e9b6ac ;
 }
 .head{
-    background-color: #cb637b;
-    width: 400px;
+    background: #c4537f;
+/* background: linear-gradient(90deg, rgba(235,123,119,1) 0%, rgba(182,79,132,1) 61%); */
     height: 150px;
-    border-radius: 10px;
+    border-radius: 0px 0px 25px 25px;
     margin: auto;
     /* display: inline-block;
     margin-top: 21px; */
@@ -39,18 +41,18 @@ body{
 .footer{
     background-color: #cb637b;
     width: 370px;
-    height: 200px;
-    border-radius: 10px;
+    height: 175px;
+    border-radius: 20px 20px 0 0; 
     margin: auto; 
     margin-top: 4rem;
 }
 .footer_box{
     background-color: #bf5d88;
     width: 350px;
-    height: 150px;
-    border-radius: 10px;
+    height: 166px;
+    border-radius: 20px 20px 0 0; 
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 .colum_box{
     background-color: #dd837a;
@@ -61,45 +63,44 @@ body{
     margin: auto;
 }
 .inner_box{
-    background-color: #e49c92;
-    /* width: 500px; */
-    height: 370px;
-    border-radius: 10px;
+    background: rgb(226,96,117);
+    background: linear-gradient(145deg, rgba(226,96,117,1) 0%, rgba(194,84,130,1) 99%);
+    border: 0px ;
+    height: 350px;
+    border-radius: 20px;
     margin: auto;
     display: inline-block;
     margin-top: 21px;
+    /* border-left: 1px solid #e9aea5;
+    border-top: 1px solid #e8aaa5; */
+
     
 }
 .colum_top{
-    background-color: #dd837a;
-    width: 350px;
-    height: 25px;
+    background-color: #c45f7f;
+    width: 250px;
+    height: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
+    margin-top: 3px;
+    margin-right: 20px;
 }
 .colum_top1{
-    background-color: #dd837a;
-    width: 300px;
-    height: 18px;
+    background-color: #c45f7f;
+    width: 120px;
+    height: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 .circle1{
-    background-color: #dd837a;
+    background-color: #d8797a;
     width: 40px;
-    height: 50px;
+    height: 40px;
     border-radius: 50px;
     margin-left: 10px;
     margin-right: 16px; 
 }
-.circle_bottom{
-    margin: auto;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-     border: 1px solid #dc7b7c;
-     margin-top: 3rem;
-}
+
 .inner_box1{
     background-color: #e49c92;
     width: 500px;
@@ -150,12 +151,13 @@ body{
     transform: scale(1.1);
 } */
 .header{
-    background-color: #dd837a;
-    width: 380px;
-    height: 100px;
-    border-radius: 10px;
+    /* background-color: #df8f7f; */
+    background:#d47b7e;
+    box-shadow: 5px #d0677c;
+    height: 150px;
+    border-radius: 15px;
     text-align: center;
-    margin: 25px ;
+    margin: 10px ;
 }
 .body{
     display: flex;
@@ -165,8 +167,8 @@ body{
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 10px;
-    margin-right: 16px;
+    margin: 20px 10px 10px 10px;
+
 }
 .colum{
     display:flex;
@@ -174,14 +176,22 @@ body{
 }
 .colum1{
     background-color: #dd837a;
-    width: 320px;
+    width: 280px;
     height: 20px;
-    margin-bottom: 10px;
     border-radius: 10px;
+    margin: 20px 10px 12px 0px;
 }
 .colum2{
     background-color: #dd837a;
-    width: 200px;
-    height: 15px;
+    width: 150px;
+    height: 12px;
     border-radius: 10px;
+}
+.circle_bottom{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #dc7b7c;
+
 }
